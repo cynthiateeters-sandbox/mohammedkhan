@@ -1,11 +1,15 @@
 {
   "name": "mohammedkhan",
-  "version": "4.4.0",  
-  "description": "",
+  "version": "4.4.1",
+  "description": "Get to know Mohammed Khan",
   "main": "index.js",
   "bin": {
     "mohammedkhan": "index.js"
   },
+  "files": [
+    "index.js",
+    "README.md"
+  ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "lint": "eslint index.js"
@@ -15,22 +19,19 @@
     "url": "git+https://github.com/Mohammedkhan18/mohammedkhan.git"
   },
   "keywords": [
-    "Mohammed Khan",
-    "Khan",
-    "RVCC",
-    "Raritan Valley Community College"
+    "cli",
+    "command-line"
   ],
+  "author": {
+    "name": "Mohammed Khan",
+    "email": "g00305549@stu.raritanval.edu",
+    "url": "https://github.com/Mohammedkhan18"
+  },
   "license": "MIT",
-  "type": "commonjs",
   "bugs": {
     "url": "https://github.com/Mohammedkhan18/mohammedkhan/issues"
   },
   "homepage": "https://github.com/Mohammedkhan18/mohammedkhan#readme",
-  "author": {
-    "name": "Mohammed Khan",
-    "email": "g00305549@stu.raritanval.edu",
-    "url": "http://github.com/Mohammedkhan18"
-  },
   "devDependencies": {
     "@eslint/js": "^9.19.0",
     "eslint": "^9.19.0",
